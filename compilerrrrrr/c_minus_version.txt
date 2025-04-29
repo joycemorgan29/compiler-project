@@ -1,0 +1,13 @@
+int x;
+int fact;
+
+x = input(); // assuming input() is a predefined function
+
+if (x > 0) {
+    fact = 1;
+    do {
+        fact = fact * x;
+        x = x - 1;
+    } while (x != 0);
+    output(fact); // assuming output() is a predefined function
+}
